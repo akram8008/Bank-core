@@ -1,4 +1,4 @@
-module github.com/akram8008/Bank-cli
+module github.com/akram8008/Bank-core
 
 go 1.13
 
