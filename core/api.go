@@ -3,7 +3,6 @@ package core
 import (
 	"database/sql"
 	"errors"
-	"fmt"
 	_ "github.com/mattn/go-sqlite3"
 	"log"
 	"strings"
@@ -272,7 +271,6 @@ func UpdateAccounts(db *sql.DB, accounts *[]Accounts) error {
 	for _, val := range *accounts {
 		//-----------:id, :name, :number, :money, :client_id
 		_, err := db.Exec(updateAccount, val.Id, val.Name, val.Number, val.Money, val.ClientId)
-		fmt.Printf(updateAccount, val.Id, val.Name, val.Number, val.Money, val.ClientId)
 		if err != nil {
 			return err
 		}
