@@ -1,0 +1,9 @@
+2020/02/12 19:34:50 start application
+2020/02/12 19:34:50 open db
+2020/02/12 19:34:50 can't open db: sql: unknown driver "sqlite3" (forgotten import?)
+2020/02/12 19:35:13 start application
+2020/02/12 19:35:13 open db
+2020/02/12 19:35:13 can't open db: sql: unknown driver "sqlite3" (forgotten import?)
+2020/02/12 19:35:18 start application
+2020/02/12 19:35:18 open db
+2020/02/12 19:35:18 can't open db: sql: unknown driver "sqlite3" (forgotten import?)
